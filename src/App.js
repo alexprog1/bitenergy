@@ -1,10 +1,11 @@
 import Header from './componentes/Header/Header';
-import './componentes/Header/Header.css'
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header className="header" />
+      <Header />
+      <Footer />
       <h1>BitEnergy</h1>
     </div>
   );
