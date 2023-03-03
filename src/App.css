@@ -1,4 +1,8 @@
-input{
-    display: block;
-    margin-bottom: 1rem;
+body, h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
