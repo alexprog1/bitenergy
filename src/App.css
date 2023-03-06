@@ -6,3 +6,44 @@ body, h1{
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
+section {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.5rem;
+    color: #8b8b8b;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    background-color: #1D1E22;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.blue {
+    border-left: 3px solid #4895ff;
+}
+   
+.green {
+    border-left: 3px solid #3bb54a;
+}
+   
+.red {
+    border-left: 3px solid #b3404a;
+}

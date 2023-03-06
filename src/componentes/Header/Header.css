@@ -1,8 +1,3 @@
-body {
-  margin: 0px;
-  padding: 0px;
-}  
-
 .menu-bg {
   background-color: #1D1E22;
   max-width: 1366px;
@@ -46,10 +41,39 @@ body {
   padding: 10px;
 }
 
-.menu-nav a:hover{
+.menu-nav a:hover {
   background-color: #1D1E22;
 }
 
+/* Cor link ativado  */
 .menu-nav a.active {
   background-color: #04AA6D;
+  color: #ffffff !important;
+}
+
+/* Cor mouse em cima link ativado */
+.menu-nav a.active:hover {
+  background-color: #04AA6D;
+  color: #e9e9e9;
+}
+
+/* Funcionamendo em tablet e mobile */
+@media screen and (max-width: 600px) {
+  .menu-nav, menu, .menu-bg, .menu-nav ul {
+    float: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .menu-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    width: 50%;
+    height:50%;
+  }
 }
