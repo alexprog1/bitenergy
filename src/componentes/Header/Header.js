@@ -3,22 +3,21 @@ import "./Header.css";
 
 const Header = () => {
     return(
-        <div className="div-header">
-            <header className="header">
-            <img src="/imagens/bitenergy.png" width={"20%"} height={"20%"} alt="Bit Energy"/>
-        
-            <ul className="menu">
-                <li><a href="/">Quem somos</a></li>
-                <li><a href="/">Soluções</a></li>
-                <li><a href="/">Como funciona</a></li>
-                <li><a href="/">Blog</a></li>
-                <li><a href="/">Contato</a></li>
-                <li>
-                <button className="btn">SIMULADOR</button>
-                </li>
-            </ul>
-            </header>
+    <div className="menu-bg">
+        <img className="menu-logo" src="/imagens/bitenergy.png" alt="Bit Energy"/>
+        <div className="menu">
+            <nav className="menu-nav">
+                <ul>
+                    <li><a href="/">Quem Somos</a></li>
+                    <li><a href="/">Soluções</a></li>
+                    <li><a href="/">Como Funciona?</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contato</a></li>
+                    <li><a class="active" href="/">SIMULADOR</a></li>
+                </ul>
+            </nav>
         </div>
+    </div>
     )
 }
 

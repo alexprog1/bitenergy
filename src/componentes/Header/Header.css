@@ -1,63 +1,55 @@
-body,
-ul {
+body {
   margin: 0px;
   padding: 0px;
-  font-family: Sans-serif;
 }  
 
-a {
-    color: #bbbbbb !important;
-    text-decoration: none;
-    font-family: sans-serif;
+.menu-bg {
+  background-color: #1D1E22;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
 }
 
-a:hover {
-    color: white !important;
-    background: rgba(0, 0, 0, 0.05);
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 0;
 }
 
-.div-header{
-background-color: #1D1E22;
-padding: 1rem 2rem;
-color: #fafafa;
+.menu a {
+  color: white;
 }
 
-.header{
-    display: flex;
-    font-size: 30px;
-    align-items: center;
-    justify-content: space-between;
+.menu-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  float: left;
+  width: 20%;
+  height:20%; 
+  margin: auto;
+  padding: 15px 0;
 }
 
-.menu{
-display: inline-block;
-float: right;
-margin: 0px;
+.menu-nav ul{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.menu li{
-list-style-type: none;
-display: inline-block;
-padding: 0.25rem 0.75rem;
-font-size: 1rem;
-cursor: pointer;
-color: #bbbbbb !important
+.menu-nav a{
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
 }
 
-.menu li:hover{
-color: white !important;
+.menu-nav a:hover{
+  background-color: #1D1E22;
 }
 
-.btn{
-background-color: #33EBA5;
-border: 1px solid #20a06f;
-border-radius: 4px;
-padding: 0.5rem 1rem;
-color: #2d3436 !important;
-font-size: 14px;
-cursor: pointer;
-}
-
-.btn:hover{
-    background-color: #2ab37e;
+.menu-nav a.active {
+  background-color: #04AA6D;
 }
