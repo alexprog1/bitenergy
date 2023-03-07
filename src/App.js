@@ -17,12 +17,52 @@ function App() {
         </section>
         <br/>
         <div class="row">
-          <div class="card green">
+          <div class="card">
             <h3>Especialista em energia solar</h3>
             <p>Totalmente especializada e segura.</p>
           </div>
-          <img className='card green' src='./imagens/card01.jpg' alt='Card'/>
+          <div class="card">
+            <h3>Especialista em energia solar</h3>
+            <p>Totalmente especializada e segura.</p>
+          </div>
+          <div class="card">
+            <h3>Especialista em energia solar</h3>
+            <p>Totalmente especializada e segura.</p>
+          </div>
         </div>
+        <hr className="bar" />
+        <h2>Perguntas Frequentes</h2>
+        <div className="container">
+          <div className="faqbox">
+            <details>
+              <summary>
+                O que é a Bit Energy?
+              </summary>
+              Seremos o maior condomínio de energia solar do RN, 
+            </details>
+            <details>
+              <summary>
+              Como funciona a energia solar pela bitenergy?
+              </summary>
+              Seremos o maior condomínio de energia solar do RN, 
+            </details>
+
+            <details>
+              <summary>
+              Como eu faço para utilizar a energia solar?
+              </summary>
+              Seremos o maior condomínio de energia solar do RN, 
+            </details>
+
+            <details>
+              <summary>
+              Quanto tempo dura até eu poder pagar minha conta pela usina?
+              </summary>
+              Seremos o maior condomínio de energia solar do RN, 
+            </details>
+          </div>
+        </div>
+        <br/>
       <Footer />
     </main>
   );
