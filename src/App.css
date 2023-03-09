@@ -25,23 +25,32 @@ p {
 }
 
 .card {
-    border-radius: 20px;
-    background: #303030;
-    box-shadow:  6px 6px 0px #2c2c2c,
-                -6px -6px 0px #343434;
+    width: 300px;
+    height: 380px;
+    border-radius: 30px;
+    background-color: #1D1E22;
+    box-shadow: 8px 8px 30px rgb(29, 30, 34),
+                -5px -8px 30px rgb(25, 25, 25);
     filter: drop-shadow(5px 5px 10px #000);
     padding: 30px;
     margin: 20px;
-    width: 300px;
-    height: 380px;
-    transition: all 0.3s ease-out;
+    z-index: 1;
+    transition: all 500ms ease-in-out;
+    /*transition: all 0.3s ease-out;*/
 }
 
+/* Efeito Zoom Digital */
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* Efeito Up Deslizar pra Cima
 .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
 }
-   
+*/
+
 .blue {
     border-left: 3px solid #4895ff;
 }
@@ -76,7 +85,7 @@ hr {
 .faqbox {
     display: flex;
     flex-direction: column;
-    background-color: #303030;
+    background-color: #1D1E22;
     background-position: 0% 0%;
     color: #ffffff;
     text-decoration: none solid rgb(255, 255, 255);
@@ -118,6 +127,18 @@ details[open] > summary {
     list-style-type: symbols(more);
 }
 
+.img {
+    align-items: center;
+    width: 80%;
+    height:80%; 
+    margin: auto;
+    padding: 15px 0;
+}
+
+.video {
+    opacity: 20%;
+}
+
 
 @media screen and (max-width: 600px) {
     .card, .faqbox, summary, details {
@@ -131,7 +152,7 @@ details[open] > summary {
       width: 80%;
       height:80%;
     }
-    .menu-img {
+    .img {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
